@@ -1,0 +1,394 @@
+html[data-be-theme="dark"] {
+    --be-bg-main: #282a36;
+    --be-text-main: #f8f8f2;
+    --be-highlight-main: #6272a4;
+    --be-text-sub: #6272a4;
+    --be-error: #ff5555;
+    background-color: var(--be-bg-main) !important;
+}
+html[data-be-theme="dark"] #profile_myAccount,
+#profile_tabs,
+#spaceDetailOuterDiv,
+#maincontent,
+#dashboard_tabs_container,
+.MuiBox-root,
+.MuiListItem-root {
+    background-color: var(--be-bg-main) !important;
+    color: var(--be-text-main) !important;
+}
+html[data-be-theme="dark"] .MuiPaper-root,
+.MuiButtonBase-root:not(.MuiTab-root),
+.MuiList-root,
+.month {
+    background-color: var(--be-bg-main) !important;
+    color: var(--be-text-main) !important;
+}
+html[data-be-theme="dark"] .MuiPaper-root .MuiButtonBase-root {
+    background-color: transparent !important;
+}
+html[data-be-theme="dark"] #content {
+    background-color: var(--be-bg-main) !important;
+}
+html[data-be-theme="dark"]
+    .MuiPaper-root
+    div:not(.MuiListItemText-root):not(.MuiListItemIcon-root):not(
+        .MuiAvatar-root
+    ) {
+    background-color: var(--be-bg-main) !important;
+}
+html[data-be-theme="dark"] .MuiPaper-root ul {
+    background-color: var(--be-bg-elevated) !important;
+}
+html[data-be-theme="dark"] .MuiTypography-root,
+.MuiTab-textColorPrimary,
+.MuiTypography-caption {
+    color: currentColor;
+    background-color: transparent !important;
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif !important;
+    word-spacing: normal;
+    letter-spacing: normal;
+}
+html[data-be-theme="dark"] h2 {
+    color: var(--be-text-main) !important;
+}
+html[data-be-theme="dark"] #MuiInput-root {
+    background-color: var(--be-bg-main) !important;
+    color: var(--be-text-main) !important;
+}
+/*
+html[data-be-theme="dark"] #background-image {
+    background-image: none;
+    background-color: var(--be-bg-main) !important;
+}
+*/
+html[data-be-theme="dark"] button[title="Class details"] {
+    background-color: var(--be-bg-elevated) !important;
+    color: var(--be-text-main) !important;
+}
+html[data-be-theme="dark"] button[role="tab"] {
+    color: var(--be-text-main) !important;
+}
+html[data-be-theme="dark"] .MuiDivider-root {
+    background-color: var(--be-bg-elevated) !important;
+}
+html[data-be-theme="dark"] .MuiListItemIcon-root {
+    background-color: transparent;
+    color: currentColor;
+}
+html[data-be-theme="dark"] .Mui-focused {
+    outline-color: var(--be-highlight-main);
+}
+html[data-be-theme="dark"] .MuiListItemButton-root:hover,
+.MuiAccordion-root:hover {
+    color: var(--be-highlight-main) !important;
+}
+html[data-be-theme="dark"] .MuiAccordion-root .MuiAccordionSummary-content {
+    color: currentColor !important;
+}
+html[data-be-theme="dark"] .container {
+    color: var(--be-text-main);
+    background-color: var(--be-bg-main);
+}
+html[data-be-theme="dark"] .container div {
+    color: var(--be-text-main);
+}
+html[data-be-theme="dark"] .container div a {
+    color: var(--be-text-main);
+}
+html[data-be-theme="dark"] .container div a div {
+    color: var(--be-text-main);
+}
+html[data-be-theme="dark"] .container div a:hover {
+    background-color: transparent;
+}
+html[data-be-theme="dark"] .container section div button {
+    background-color: transparent;
+    border: 1px solid var(--be-highlight-main);
+}
+html[data-be-theme="dark"] .acc-content-1-0 ul li a span {
+    color: var(--be-text-main);
+}
+html[data-be-theme="dark"] .container section div div span {
+    background-color: transparent;
+    color: var(--be-text-main);
+}
+html[data-be-theme="dark"] .hedtech-day span {
+    color: var(--be-text-main) !important;
+}
+html[data-be-theme="dark"] .rdp-day_today .hedtech-day span,
+#selected-date-btn div div {
+    color: var(--be-highlight-main) !important;
+}
+html[data-be-theme="dark"] button[title^="Select "] div div {
+    color: var(--be-text-main) !important;
+}
+.jssAcMaY7JKvQ1584 {
+    color: var(--be-error) !important;
+}
+html[data-be-theme="dark"] .MuiToggleButtonGroup-root {
+    background-color: var(--be-bg-main) !important;
+}
+html[data-be-theme="dark"] #agendacalendar-toggle button svg {
+    filter: invert(1) brightness(1.2);
+}
+html[data-be-theme="dark"] .rbc-event-content,
+.rbc-event-label,
+.MuiTableCell-root,
+.MuiTableRow-root {
+    color: var(--be-text-main) !important;
+}
+html[data-be-theme="dark"] .MuiTableHead-root,
+.table-row-expanded {
+    color: var(--be-text-main) !important;
+    background: var(--be-bg-elevated) !important;
+}
+html[data-be-theme="dark"] .MuiTableCell-root::before {
+    color: var(--be-text-main) !important;
+}
+/* This is hiding the copyright footer */
+/*
+html #experiencefooter {
+    visibility: hidden !important;
+}
+*/
+div[role="img"][aria-label="Quick access to registration information."] {
+    display: none !important;
+}
+html[data-be-theme="dark"] .MuiTypography-body2 {
+    color: var(--be-text-sub) !important;
+}
+/* Scrollbar */
+html[data-be-theme="dark"]::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+html[data-be-theme="dark"]::-webkit-scrollbar-track {
+    background: var(--be-bg-main);
+}
+
+html[data-be-theme="dark"]::-webkit-scrollbar-thumb {
+    background-color: var(--be-highlight-main);
+    border-radius: 6px;
+    border: 3px solid #1e1f2a;
+}
+
+html[data-be-theme="dark"]::-webkit-scrollbar-thumb:hover {
+    background-color: #50cfff;
+}
+
+/* Light theme */
+html[data-be-theme="light"]::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+html[data-be-theme="light"]::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+html[data-be-theme="light"]::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+    border: 3px solid #f0f0f0;
+}
+
+html[data-be-theme="light"]::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+html[data-be-theme]::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+html[data-be-theme]::-webkit-scrollbar-track {
+    background: var(--be-bg-main, #fff);
+}
+
+html[data-be-theme]::-webkit-scrollbar-thumb {
+    background-color: var(--be-highlight-main, #8be9fd);
+    border-radius: 6px;
+    border: 3px solid var(--be-bg-main, #fff);
+}
+
+html[data-be-theme]::-webkit-scrollbar-thumb:hover {
+    background-color: var(--be-highlight-main, #50cfff);
+}
+
+html[data-be-theme] {
+    scrollbar-width: thin;
+    scrollbar-color: var(--be-highlight-main, #8be9fd) var(--be-bg-main, #fff);
+}
+html .MuiBackdrop-invisible {
+    visibility: hidden;
+}
+/* Modal */
+.be-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.be-modal-box {
+    background-color: var(--be-bg-main, #fff);
+    color: var(--be-text-main, #000);
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    position: relative;
+    max-width: 90%;
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+}
+
+.be-modal-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--be-text-main, #000);
+}
+
+.be-modal-content h2 {
+    margin-top: 0;
+    color: var(--be-text-main, #000);
+}
+
+.be-modal-content p {
+    color: var(--be-text-main, #000);
+}
+
+.be-modal-content .patch-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--be-border, #ccc);
+}
+
+.be-modal-content .patch-label-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 8px;
+}
+
+.be-modal-content .patch-label-container .patch-name {
+    font-weight: 600;
+    color: var(--be-text-main, #000);
+}
+
+.be-modal-content .patch-label-container .patch-desc {
+    font-size: 0.85em;
+    color: var(--be-text-muted, #666);
+}
+
+.be-modal-content input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.be-modal-content select {
+    width: 100%;
+    padding: 4px 8px;
+    margin-bottom: 12px;
+    background-color: var(--be-bg-main, #fff);
+    color: var(--be-text-main, #000);
+    border: 1px solid var(--be-highlight-main, #000);
+    border-radius: 4px;
+}
+
+.be-modal-content button {
+    padding: 8px 12px;
+    background-color: var(--be-highlight-main, #007bff);
+    color: var(--be-text-main, #fff);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.be-modal-content button:hover {
+    opacity: 0.85;
+}
+
+.be-modal-content .patch-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--be-border, #ccc);
+}
+
+.be-modal-content .patch-label-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.be-modal-content .patch-name {
+    font-weight: 600;
+    color: var(--be-text-main, #000);
+}
+
+.be-modal-content .patch-desc {
+    font-size: 0.85em;
+    color: var(--be-text-muted, #666);
+    margin-top: 2px;
+}
+
+.be-modal-content .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+}
+
+.be-modal-content .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.be-modal-content .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--be-border, #ccc);
+    transition: 0.2s;
+    border-radius: 22px;
+}
+
+.be-modal-content .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+
+.be-modal-content .switch input:checked + .slider {
+    background-color: var(--be-highlight-main, #007bff);
+}
+
+.be-modal-content .switch input:checked + .slider:before {
+    transform: translateX(18px);
+}

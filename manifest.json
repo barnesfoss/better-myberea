@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Better MyBerea",
+  "version": "1.0",
+  "permissions": ["storage"],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://experience.elluciancloud.com/bc824/*"],
+      "css": ["themes.css"],
+      "js": [
+        "modal.js",
+        "settingsModal.js",
+        "content.js",
+        "patches/betterAppImages.js",
+        "patches/patchHandler.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}
